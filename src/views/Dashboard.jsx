@@ -36,18 +36,18 @@ class Dashboard extends Component {
           <Row>
             <Col lg={3} sm={6}>
               <StatsCard
-                bigIcon={<i className="pe-7s-server text-warning" />}
+                bigIcon={<i className="pe-7s-car text-warning" />}
                 statsText="Trucks"
-                statsValue="105GB"
-                statsIcon={<i className="fa fa-refresh" />}
+                statsValue="49"
+                statsIcon={<i className="fa fa-truck" />}
                 statsIconText="Updated now"
               />
             </Col>
             <Col lg={3} sm={6}>
               <StatsCard
-                bigIcon={<i className="pe-7s-wallet text-success" />}
+                bigIcon={<i className="pe-7s-users text-success" />}
                 statsText="Drivers"
-                statsValue="$1,345"
+                statsValue="50"
                 statsIcon={<i className="fa fa-calendar-o" />}
                 statsIconText="Last day"
               />
@@ -55,7 +55,7 @@ class Dashboard extends Component {
             <Col lg={3} sm={6}>
               <StatsCard
                 bigIcon={<i className="pe-7s-graph1 text-danger" />}
-                statsText="Positions"
+                statsText="Locations"
                 statsValue="23"
                 statsIcon={<i className="fa fa-clock-o" />}
                 statsIconText="In the last hour"
@@ -67,7 +67,7 @@ class Dashboard extends Component {
               <Card
                 statsIcon="fa fa-history"
                 id="chartHours"
-                title="Users Behavior"
+                title="Drivers Behavior"
                 category="24 Hours performance"
                 stats="Updated 3 minutes ago"
                 content={
@@ -88,8 +88,8 @@ class Dashboard extends Component {
             <Col md={4}>
               <Card
                 statsIcon="fa fa-clock-o"
-                title="Email Statistics"
-                category="Last Campaign Performance"
+                title="Movement Statistics"
+                category="Last Movement Performance"
                 stats="Campaign sent 2 days ago"
                 content={
                   <div
