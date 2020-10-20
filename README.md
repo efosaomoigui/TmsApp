@@ -35,7 +35,8 @@ IS a typical react project: https://github.com/efosaomoigui/TmsApp and also avai
 
 Backend
 https://github.com/efosaomoigui/TmsId
-Is a simple asp.net core webapplication with simple mixtue of repository patternb and SOLId principle. Please note: i implemented the use authorization and authentication but decide not to use for request quest from the ui to save the time copying the token here and ther.
+SOA Project:
+Is a simple asp.net core service webapplication with simple mixtue of repository patternb and SOLId principle architecture. Please note: i implemented the use authorization and authentication but decide not to use it for request quest from the ui to save the time copying the token here and ther.
 
 
 SQL.
