@@ -279,7 +279,7 @@ class lafargeLocator extends Component {
             </Col>
             <Col md={6}>
               <Card
-                title="Location"
+                title={`Location of Truck Asset ID: (${this.state.xAssetId})`}
                 ctTableFullWidth
                 ctTableResponsive
                 content={
